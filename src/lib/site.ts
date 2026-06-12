@@ -6,7 +6,7 @@ export const SITE = {
   legalName: 'TIMCO Kennels LLC',
   tagline: 'Labrador & Retriever Board-and-Train in Thibodaux, LA',
   baseUrl: 'https://timcokennels.com', // TODO: confirm exact domain spelling before launch (buying 2026-06-12)
-  owner: 'Timothy Cailouet',
+  owner: 'Timothy Caillouet',
   ownerShort: 'Tim',
   ownerTitle: 'Owner / Trainer',
   phoneDisplay: '985.665.7298',
