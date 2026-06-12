@@ -22,7 +22,7 @@ export default function FacilityPage() {
       {/* Hero */}
       <section className="relative bg-primary text-white overflow-hidden">
         <div className="absolute inset-0">
-          <Image src="/images/kennel-hero.jpg" alt="Labradors in the kennel runs at the TIMCO Kennels facility in Thibodaux, Louisiana" fill priority className="object-cover opacity-40" sizes="100vw" />
+          <Image src="/images/kennel-hero.jpg" alt="Labradors in a fenced yard with a utility vehicle at the TIMCO Kennels property in Thibodaux, Louisiana" fill priority className="object-cover opacity-40" sizes="100vw" />
           <div className="absolute inset-0 bg-gradient-to-r from-primary via-primary/85 to-primary/40" />
         </div>
         <div className="relative container-wide py-24 md:py-32">
@@ -47,7 +47,7 @@ export default function FacilityPage() {
         <div className="container-wide">
           <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
             <div className="lg:col-span-6 relative aspect-[4/3] overflow-hidden">
-              <Image src="/images/kennel-facility.jpg" alt="The TIMCO Kennels facility exterior with chain-link runs in Thibodaux" fill className="object-cover" sizes="(max-width:1024px) 100vw, 50vw" />
+              <Image src="/images/kennel-three-labs-picnic.jpg" alt="Labradors gathered on the grounds at the TIMCO Kennels facility in Thibodaux" fill className="object-cover" sizes="(max-width:1024px) 100vw, 50vw" />
             </div>
             <div className="lg:col-span-6">
               <p className="section-label">On the Ground</p>
@@ -103,12 +103,12 @@ export default function FacilityPage() {
         label="The Facility"
         heading="Where your dog lives and learns."
         photos={[
-          { src: '/images/kennel-hero.jpg', alt: 'Labradors in the kennel runs with a truck at TIMCO Kennels' },
-          { src: '/images/kennel-facility.jpg', alt: 'TIMCO Kennels facility exterior with chain-link runs in Thibodaux' },
-          { src: '/images/kennel-pack-action.jpg', alt: 'A pack of Labradors playing in the kennel run yard' },
-          { src: '/images/kennel-white-lab-bench.jpg', alt: 'A white Lab on a bench by the TIMCO sign' },
-          { src: '/images/kennel-black-lab-alert.jpg', alt: 'A black Lab sitting alert with the kennel runs behind' },
-          { src: '/images/kennel-yellow-lab-hallway.jpg', alt: 'A yellow Lab in the training facility hallway' },
+          { src: '/images/kennel-black-lab-alert.jpg', alt: 'A black Lab sitting alert on the grass at TIMCO Kennels' },
+          { src: '/images/kennel-lab-chair-1.jpg', alt: 'A yellow Lab on a bench by a split-rail fence at the kennel' },
+          { src: '/images/kennel-lab-chair-2.jpg', alt: 'A black Lab on a raised platform at the kennel' },
+          { src: '/images/kennel-white-lab-bench.jpg', alt: 'A yellow Lab on a picnic table by the kennel shed' },
+          { src: '/images/kennel-three-labs.jpg', alt: 'Three Labradors sitting together on a bench at TIMCO Kennels' },
+          { src: '/images/kennel-yellow-lab-hallway.jpg', alt: 'A yellow Lab on a bench by the kennel building' },
         ]}
       />
 

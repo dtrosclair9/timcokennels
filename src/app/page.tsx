@@ -142,8 +142,8 @@ export default function HomePage() {
           <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
             <div className="lg:col-span-6 relative aspect-[4/3] overflow-hidden">
               <Image
-                src="/images/kennel-facility.jpg"
-                alt="TIMCO Kennels facility with kennel runs at the Hwy 308 headquarters in Thibodaux, Louisiana"
+                src="/images/kennel-hero.jpg"
+                alt="Labradors in a fenced yard with a utility vehicle at TIMCO Kennels in Thibodaux, Louisiana"
                 fill
                 className="object-cover"
                 sizes="(max-width:1024px) 100vw, 50vw"
@@ -172,12 +172,12 @@ export default function HomePage() {
         label="The Dogs"
         heading="What a finished retriever looks like."
         photos={[
-          { src: '/images/retriever-hero-boat.jpg', alt: 'Two retrievers riding in a flat-bottom boat through a Louisiana swamp' },
-          { src: '/images/kennel-pack-action.jpg', alt: 'A pack of Labradors playing in the TIMCO Kennels run yard' },
-          { src: '/images/retriever-sunset-2.jpg', alt: 'Three Labradors spread across a field at sunset' },
-          { src: '/images/kennel-three-labs.jpg', alt: 'Three Labradors — white, yellow, and golden — posing together' },
-          { src: '/images/kennel-yellow-lab-hallway.jpg', alt: 'A yellow Lab in the TIMCO Kennels training facility' },
-          { src: '/images/kennel-black-lab-alert.jpg', alt: 'A black Lab sitting alert with the kennel runs behind in Thibodaux' },
+          { src: '/images/retriever-hero-boat.jpg', alt: 'Two retrievers riding in a boat through a Louisiana bayou' },
+          { src: '/images/kennel-black-lab-alert.jpg', alt: 'A black Lab sitting alert on the grass at TIMCO Kennels' },
+          { src: '/images/kennel-lab-chair-1.jpg', alt: 'A yellow Lab on a bench by a split-rail fence at the kennel' },
+          { src: '/images/kennel-yellow-lab-hallway.jpg', alt: 'A yellow Lab on a bench by the TIMCO Kennels building' },
+          { src: '/images/retriever-puppy-sweet.jpg', alt: 'A young retriever in the clover looking at the camera' },
+          { src: '/images/kennel-three-labs-picnic.jpg', alt: 'Labradors gathered on the grounds at TIMCO Kennels' },
         ]}
       />
 
@@ -187,8 +187,8 @@ export default function HomePage() {
           <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
             <div className="lg:col-span-5 relative aspect-[4/5] overflow-hidden order-2 lg:order-1">
               <Image
-                src="/images/kennel-white-lab-bench.jpg"
-                alt="A white Labrador on a bench by the TIMCO sign in Thibodaux, Louisiana"
+                src="/images/kennel-three-labs.jpg"
+                alt="Three Labradors — golden, yellow, and cream — sitting together on a bench at TIMCO Kennels"
                 fill
                 className="object-cover"
                 sizes="(max-width:1024px) 100vw, 40vw"

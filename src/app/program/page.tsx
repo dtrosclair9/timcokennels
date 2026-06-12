@@ -177,12 +177,12 @@ export default function ProgramPage() {
         label="In the Field"
         heading="Where the work happens."
         photos={[
-          { src: '/images/retriever-sunset-1.jpg', alt: 'Three Labradors running toward the camera at sunset in the Bayou Region' },
-          { src: '/images/kennel-pack-action.jpg', alt: 'A pack of Labradors working in the TIMCO Kennels yard' },
-          { src: '/images/retriever-hero-boat.jpg', alt: 'Two retrievers in a flat-bottom boat through a Louisiana swamp' },
-          { src: '/images/kennel-three-labs-picnic.jpg', alt: 'Three Labradors on the grass at a picnic table near the kennel' },
-          { src: '/images/kennel-white-lab-alert.jpg', alt: 'A white Lab standing alert on a bench at TIMCO Kennels' },
-          { src: '/images/retriever-sunset-2.jpg', alt: 'Three Labradors spread across a field at sunset' },
+          { src: '/images/retriever-sunset-1.jpg', alt: 'Labradors out in an open field at sunset in the Bayou Region' },
+          { src: '/images/kennel-hero.jpg', alt: 'Labradors in a fenced yard with a utility vehicle at TIMCO Kennels' },
+          { src: '/images/kennel-pack-action.jpg', alt: 'Several dogs working out in a field by the fence line' },
+          { src: '/images/kennel-three-labs.jpg', alt: 'Three Labradors sitting together on a bench at the kennel' },
+          { src: '/images/kennel-lab-chair-2.jpg', alt: 'A black Lab on a raised platform at TIMCO Kennels' },
+          { src: '/images/retriever-puppy-kennel.jpg', alt: 'A young retriever in the grass at the kennel' },
         ]}
       />
 

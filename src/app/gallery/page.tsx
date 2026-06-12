@@ -16,22 +16,20 @@ export const metadata: Metadata = {
 }
 
 const photos = [
-  { src: '/images/retriever-hero-boat.jpg', alt: 'Two retrievers riding in a flat-bottom boat through a Louisiana swamp' },
-  { src: '/images/retriever-sunset-1.jpg', alt: 'Three Labradors running toward the camera at sunset in the Bayou Region' },
-  { src: '/images/retriever-sunset-2.jpg', alt: 'Three Labradors spread across a field at sunset' },
-  { src: '/images/kennel-pack-action.jpg', alt: 'A pack of Labradors playing in the TIMCO Kennels run yard' },
-  { src: '/images/kennel-hero.jpg', alt: 'Labradors in the kennel runs with a truck at TIMCO Kennels' },
-  { src: '/images/kennel-facility.jpg', alt: 'The TIMCO Kennels facility exterior with chain-link runs in Thibodaux' },
-  { src: '/images/kennel-three-labs.jpg', alt: 'Three Labradors — white, yellow, and golden — posing together on a bench' },
-  { src: '/images/kennel-three-labs-picnic.jpg', alt: 'Three Labradors on the grass at a picnic table near the kennel' },
-  { src: '/images/kennel-white-lab-bench.jpg', alt: 'A white Lab on a bench by the TIMCO sign in Thibodaux' },
-  { src: '/images/kennel-white-lab-alert.jpg', alt: 'A white Lab standing alert on a bench at TIMCO Kennels' },
-  { src: '/images/kennel-black-lab-alert.jpg', alt: 'A black Lab sitting alert with the kennel runs behind' },
-  { src: '/images/kennel-yellow-lab-hallway.jpg', alt: 'A yellow Lab in the TIMCO Kennels training facility hallway' },
-  { src: '/images/kennel-lab-chair-1.jpg', alt: 'A white Lab resting on a chair at TIMCO Kennels' },
-  { src: '/images/kennel-lab-chair-2.jpg', alt: 'A black Lab on a chair in golden-hour light at TIMCO Kennels' },
-  { src: '/images/retriever-puppy-kennel.jpg', alt: 'A golden retriever puppy in the grass with the kennel runs behind' },
-  { src: '/images/retriever-puppy-sweet.jpg', alt: 'A golden retriever puppy looking up at the camera' },
+  { src: '/images/retriever-hero-boat.jpg', alt: 'Two retrievers riding in a boat through a Louisiana bayou' },
+  { src: '/images/retriever-sunset-1.jpg', alt: 'Labradors in an open field at sunset in the Bayou Region' },
+  { src: '/images/retriever-sunset-2.jpg', alt: 'Labradors out in a field at sunset' },
+  { src: '/images/kennel-pack-action.jpg', alt: 'Several dogs out in a field by the fence line at TIMCO Kennels' },
+  { src: '/images/kennel-hero.jpg', alt: 'Labradors in a fenced yard with a utility vehicle at TIMCO Kennels' },
+  { src: '/images/kennel-three-labs.jpg', alt: 'Three Labradors — golden, yellow, and cream — sitting together on a bench' },
+  { src: '/images/kennel-three-labs-picnic.jpg', alt: 'Labradors gathered on the grounds at the kennel' },
+  { src: '/images/kennel-white-lab-bench.jpg', alt: 'A yellow Lab on a picnic table by the kennel shed in Thibodaux' },
+  { src: '/images/kennel-black-lab-alert.jpg', alt: 'A black Lab sitting alert on the grass at TIMCO Kennels' },
+  { src: '/images/kennel-yellow-lab-hallway.jpg', alt: 'A yellow Lab on a bench by the kennel building' },
+  { src: '/images/kennel-lab-chair-1.jpg', alt: 'A yellow Lab on a bench by a split-rail fence at the kennel' },
+  { src: '/images/kennel-lab-chair-2.jpg', alt: 'A black Lab on a raised platform in golden-hour light at the kennel' },
+  { src: '/images/retriever-puppy-kennel.jpg', alt: 'A young retriever in the grass at the kennel' },
+  { src: '/images/retriever-puppy-sweet.jpg', alt: 'A young retriever looking up at the camera in the clover' },
 ]
 
 const schema = {

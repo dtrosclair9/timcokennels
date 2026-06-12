@@ -132,7 +132,7 @@ export default function GunDogThibodauxPage() {
       {/* Hero */}
       <section className="relative bg-primary text-white overflow-hidden">
         <div className="absolute inset-0">
-          <Image src="/images/retriever-sunset-1.jpg" alt={`Retrievers training at sunset near ${CITY}, Louisiana`} fill priority className="object-cover opacity-40" sizes="100vw" />
+          <Image src="/images/retriever-sunset-2.jpg" alt={`Labradors in a field at sunset near ${CITY}, Louisiana`} fill priority className="object-cover opacity-40" sizes="100vw" />
           <div className="absolute inset-0 bg-gradient-to-r from-primary via-primary/85 to-primary/40" />
         </div>
         <div className="relative container-wide py-24 md:py-32">

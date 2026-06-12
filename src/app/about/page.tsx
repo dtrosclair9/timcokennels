@@ -80,7 +80,7 @@ export default function AboutPage() {
         <div className="container-wide">
           <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
             <div className="lg:col-span-5 relative aspect-[4/5] overflow-hidden">
-              <Image src="/images/kennel-white-lab-bench.jpg" alt="A Labrador on a bench by the TIMCO sign at the Thibodaux kennel" fill className="object-cover" sizes="(max-width:1024px) 100vw, 40vw" />
+              <Image src="/images/tim-portrait.jpg" alt={`${SITE.owner}, owner and trainer at TIMCO Kennels, with a young retriever`} fill className="object-cover" sizes="(max-width:1024px) 100vw, 40vw" />
               <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-primary/90 to-transparent p-6 text-white">
                 <p className="section-label text-accent-light">{SITE.ownerTitle}</p>
                 <p className="heading-md text-white mt-1">{SITE.owner}</p>
