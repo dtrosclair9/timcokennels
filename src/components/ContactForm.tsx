@@ -81,7 +81,7 @@ export default function ContactForm({ defaultService }: { defaultService?: strin
           required
           rows={5}
           className="w-full border border-gray-300 px-4 py-3 text-sm focus:outline-none focus:ring-2 focus:ring-accent focus:border-transparent transition resize-y"
-          placeholder="Current age, where he's at on obedience and retrieving, what you want him doing by season, and your timeframe..."
+          placeholder="Current age, where they're at on obedience and retrieving, what you want them doing by season, and your timeframe..."
         />
       </div>
 

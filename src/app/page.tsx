@@ -83,7 +83,7 @@ export default function HomePage() {
           <p className="lede text-gray-200 mt-7 max-w-xl">
             TIMCO Kennels takes Labs and retrievers from basic obedience all the way
             to advanced field work — hand signals, blind retrieves, and duck-blind
-            etiquette. {SITE.runs} runs, one trainer, on the dog every day.
+            etiquette. {SITE.runs} runs, hands-on training, daily field work.
           </p>
           <div className="mt-10 flex flex-wrap gap-3">
             <Link href="/contact" className="btn-accent text-sm">Ask About Openings</Link>
@@ -96,7 +96,7 @@ export default function HomePage() {
             { label: 'Programs', value: SITE.programRange },
             { label: 'Kennel Runs', value: String(SITE.runs) },
             { label: 'HQ', value: `${SITE.address.city}, ${SITE.address.region}` },
-            { label: 'Insured', value: 'One Trainer Per Dog' },
+            { label: 'Insured', value: 'Crew + Equipment' },
           ]}
         />
       </section>
@@ -197,17 +197,17 @@ export default function HomePage() {
             <div className="lg:col-span-7 order-1 lg:order-2">
               <p className="section-label">About TIMCO Kennels</p>
               <h2 id="about-heading" className="heading-xl text-primary mt-3 max-w-lg text-balance">
-                One trainer. On your dog every day.
+                Hands-on training. Every day.
               </h2>
               <div className="mt-6 space-y-4 text-gray-700 leading-relaxed">
                 <p>
-                  TIMCO Kennels is run by <strong className="text-primary">{SITE.owner}</strong> out of {SITE.address.city} —
+                  TIMCO Kennels is owned by <strong className="text-primary">{SITE.owner}</strong> out of {SITE.address.city} —
                   a board-and-train built for hunters and gun-dog owners who want a finished
                   retriever, not a weekend obedience class.
                 </p>
                 <p>
-                  Every dog gets one dedicated trainer start to finish. We don&apos;t breed or sell
-                  pups — we take the dog you already love and turn him into a partner you can run
+                  Every dog gets consistent, hands-on training start to finish. We don&apos;t breed or sell
+                  pups — we take the dog you already love and turn them into a partner you can run
                   in the field and the blind.
                 </p>
               </div>
@@ -223,7 +223,7 @@ export default function HomePage() {
 
       <CtaBand
         heading="Got a dog ready to work?"
-        body="Send his age, where he's at on obedience and retrieving, and what you want him doing by season. Tim will follow up about current openings and program fit."
+        body="Send your dog's age, where they're at on obedience and retrieving, and what you want them doing by season. We'll follow up about current openings and program fit."
         note={`Insured · ${SITE.runs} runs · Programs run ${SITE.programRange}`}
       />
     </>

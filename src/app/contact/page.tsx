@@ -4,7 +4,7 @@ import { SITE } from '@/lib/site'
 
 export const metadata: Metadata = {
   title: 'Contact – Ask About Retriever Training Openings in Thibodaux, LA',
-  description: `Ask TIMCO Kennels about board-and-train openings in Thibodaux, LA. Tell us about your dog and what you want him doing by season. Call ${SITE.phoneDisplay} or send a message.`,
+  description: `Ask TIMCO Kennels about board-and-train openings in Thibodaux, LA. Tell us about your dog and what you want them doing by season. Call ${SITE.phoneDisplay} or send a message.`,
   alternates: { canonical: `${SITE.baseUrl}/contact` },
   openGraph: {
     title: `Contact ${SITE.name} | Thibodaux, LA`,
@@ -47,8 +47,8 @@ export default function ContactPage() {
             Tell {SITE.ownerShort} about your dog.
           </h1>
           <p className="lede text-gray-300 mt-5 max-w-2xl">
-            Where he&apos;s at on obedience and retrieving, and what you want him doing by season. Tim
-            will follow up about current openings and which stage to start him in.
+            Where they&apos;re at on obedience and retrieving, and what you want them doing by season. We&apos;ll
+            follow up about current openings and which stage to start them in.
           </p>
         </div>
       </section>

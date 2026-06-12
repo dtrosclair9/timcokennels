@@ -27,19 +27,19 @@ export const metadata: Metadata = {
 const localContext = [
   {
     heading: 'Built for Bayou Region hunting',
-    body: 'Thibodaux dogs hunt flooded timber, marsh, and rice cuts — not a training field with clipped grass. We run marks, blinds, and water work on the kind of rural ground a Lafourche dog actually hunts, so what he learns holds up come opening day.',
+    body: 'Thibodaux dogs hunt flooded timber, marsh, and rice cuts — not a training field with clipped grass. We run marks, blinds, and water work on the kind of rural ground a Lafourche dog actually hunts, so what they learn holds up come opening day.',
   },
   {
     heading: 'Local — same parish, same kennel',
     body: `Our kennel is right here on ${SITE.address.street} in ${CITY}. Drop-off and pick-up are easy, and you can come see the runs and the routine before you ever leave your dog. No shipping a dog across the country to a name you found online.`,
   },
   {
-    heading: 'One trainer, start to finish',
-    body: 'Your dog is not handed between staff. The trainer who starts him on obedience is the one who finishes him on blinds — the consistency a dog needs to actually retain the work over a months-long program.',
+    heading: 'Consistent, start to finish',
+    body: 'Your dog is not passed around. The same hands-on approach that starts them on obedience finishes them on blinds — the consistency a dog needs to actually retain the work over a months-long program.',
   },
   {
     heading: 'Honest about your dog',
-    body: 'We tell you where your dog realistically is and how far he can go on your timeline. If he needs more foundation before field work, we say so up front — you get a straight answer, not a sales pitch.',
+    body: 'We tell you where your dog realistically is and how far they can go on your timeline. If they need more foundation before field work, we say so up front — you get a straight answer, not a sales pitch.',
   },
 ]
 
@@ -50,7 +50,7 @@ const faqs = [
   },
   {
     q: 'How long is the program?',
-    a: `Programs run ${SITE.programRange} depending on the dog, where he's starting, and how far you want to take him. Basic obedience is shorter; full advanced retriever with steady-to-shot and blind work takes longer. We give an honest estimate after we evaluate your dog.`,
+    a: `Programs run ${SITE.programRange} depending on the dog, where they're starting, and how far you want to take them. Basic obedience is shorter; full advanced retriever with steady-to-shot and blind work takes longer. We give an honest estimate after we evaluate your dog.`,
   },
   {
     q: 'What kind of dogs do you take?',
@@ -62,7 +62,7 @@ const faqs = [
   },
   {
     q: `Can I visit the kennel in ${CITY} first?`,
-    a: `Yes. Drop-offs, pick-ups, and visits are by appointment at ${SITE.address.street}, ${SITE.address.city}. Reach out and Tim will set up a time to walk you through the runs and the program.`,
+    a: `Yes. Drop-offs, pick-ups, and visits are by appointment at ${SITE.address.street}, ${SITE.address.city}. Reach out and we'll set up a time to walk you through the runs and the program.`,
   },
 ]
 
@@ -157,7 +157,7 @@ export default function GunDogThibodauxPage() {
               <h2 className="heading-xl text-primary mt-3 text-balance">A {CITY} kennel that knows the hunting.</h2>
               <p className="text-gray-700 mt-6 leading-relaxed">
                 TIMCO Kennels trains out of {SITE.address.street}, {SITE.address.city} — close enough that
-                you can see the runs, meet the trainer, and hunt the same country your dog learns on.
+                you can see the runs and the routine, and hunt the same country your dog learns on.
               </p>
             </div>
             <div className="lg:col-span-7 grid grid-cols-1 sm:grid-cols-2 gap-5">
@@ -198,7 +198,7 @@ export default function GunDogThibodauxPage() {
 
       <CtaBand
         heading={`Hunting around ${CITY}? Let's talk.`}
-        body="Send your dog's age, where he's at on obedience and retrieving, and your timeframe. Tim will follow up about openings and which stage to start him in."
+        body="Send your dog's age, where they're at on obedience and retrieving, and your timeframe. We'll follow up about openings and which stage to start them in."
         note={`Insured · ${SITE.runs} runs · ${SITE.address.street}, ${SITE.address.city}`}
       />
     </>

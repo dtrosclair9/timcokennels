@@ -113,7 +113,7 @@ export default function FacilityPage() {
       />
 
       <CtaBand
-        heading="Want to see where he'd stay?"
+        heading="Want to see where they'd stay?"
         body="Reach out to schedule a time. Tim can walk you through the runs, the routine, and where your dog would fit in the program."
         note={`${SITE.address.street}, ${SITE.address.city}, ${SITE.address.region} · By appointment`}
       />

@@ -43,7 +43,7 @@ const schema = {
 
 const included = [
   'Board &amp; daily training at our facility',
-  'One dedicated trainer per dog',
+  'Consistent, hands-on training',
   'Daily field &amp; water work',
   'Obedience foundation (sit, stay, here, kennel, heel)',
   'Force fetch &amp; reliable delivery to hand',
@@ -72,7 +72,7 @@ export default function ProgramPage() {
           <p className="lede text-gray-200 mt-6 max-w-2xl">
             One continuous board-and-train that takes a willing dog from sit-and-stay
             all the way to steady-to-shot. Programs run {SITE.programRange} depending on the
-            dog, his starting point, and how far you want to go.
+            dog, their starting point, and how far you want to go.
           </p>
           <div className="mt-9 flex flex-wrap gap-3">
             <Link href="/contact" className="btn-accent text-xs">Ask About Openings</Link>
@@ -88,8 +88,8 @@ export default function ProgramPage() {
             <p className="section-label">How It Works</p>
             <h2 className="heading-xl text-primary mt-3 text-balance">Three stages, run in order.</h2>
             <p className="text-gray-700 mt-5 leading-relaxed">
-              Every dog starts at the foundation and moves up only when he&apos;s solid. Where your dog
-              starts depends on what he already knows — and the program ends when he&apos;s where you need him.
+              Every dog starts at the foundation and moves up only when they&apos;re solid. Where your dog
+              starts depends on what they already know — and the program ends when they&apos;re where you need them.
             </p>
           </div>
 
@@ -123,7 +123,7 @@ export default function ProgramPage() {
               <h2 className="heading-xl text-primary mt-3 text-balance">Everything in one board-and-train.</h2>
               <p className="text-gray-700 mt-5 leading-relaxed">
                 Your dog lives and trains at the facility for the length of the program. One quote
-                covers board, daily training, and field work — you drop him off and pick up a finished dog.
+                covers board, daily training, and field work — you drop them off and pick up a finished dog.
               </p>
               <ul className="mt-8 grid grid-cols-1 sm:grid-cols-2 gap-3">
                 {included.map((it) => (
@@ -187,8 +187,8 @@ export default function ProgramPage() {
       />
 
       <CtaBand
-        heading="Ready to get him finished?"
-        body="Send his age, where he's at on obedience and retrieving, and what you want him doing by season. Tim will follow up about current openings and which stage to start him in."
+        heading="Ready to get them finished?"
+        body="Send your dog's age, where they're at on obedience and retrieving, and what you want them doing by season. We'll follow up about current openings and which stage to start them in."
         note={`Insured · ${SITE.runs} runs · Programs run ${SITE.programRange} · Pricing by program — ask`}
       />
     </>

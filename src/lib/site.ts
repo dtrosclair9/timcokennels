@@ -8,7 +8,7 @@ export const SITE = {
   baseUrl: 'https://timcokennels.com', // TODO: confirm exact domain spelling before launch (buying 2026-06-12)
   owner: 'Timothy Caillouet',
   ownerShort: 'Tim',
-  ownerTitle: 'Owner / Trainer',
+  ownerTitle: 'Owner',
   phoneDisplay: '985.665.7298',
   phoneRaw: '+19856657298',
   email: 'timcollc2021@gmail.com', // production — test with daynetrosclair@icloud.com first
