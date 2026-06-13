@@ -3,8 +3,8 @@ import ContactForm from '@/components/ContactForm'
 import { SITE } from '@/lib/site'
 
 export const metadata: Metadata = {
-  title: 'Contact – Ask About Retriever Training Openings in Thibodaux, LA',
-  description: `Ask TIMCO Kennels about board-and-train openings in Thibodaux, LA. Tell us about your dog and what you want them doing by season. Call ${SITE.phoneDisplay} or send a message.`,
+  title: 'Contact – Gun Dog Training in Thibodaux, LA',
+  description: `Ask TIMCO Kennels about gun dog and retriever training openings in Thibodaux, LA. Tell us about your dog. Call ${SITE.phoneDisplay} or send a message.`,
   alternates: { canonical: `${SITE.baseUrl}/contact` },
   openGraph: {
     title: `Contact ${SITE.name} | Thibodaux, LA`,

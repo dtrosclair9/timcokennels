@@ -104,7 +104,7 @@ export function AreaBand() {
       <div className="container-wide text-center">
         <p className="section-label">Where Dogs Come From</p>
         <h2 className="heading-lg mt-3 max-w-2xl mx-auto text-balance">
-          Based in <span className="text-accent-light">{SITE.address.city}</span>. Dogs come in from across the Bayou Region.
+          Based in <span className="text-accent-light">{SITE.address.city}</span>. Dogs come in from across Louisiana.
         </h2>
         <div className="mt-8 flex flex-wrap gap-2 justify-center">
           {SITE.serviceArea.cities.map((c) => (
@@ -112,6 +112,14 @@ export function AreaBand() {
               {c}, LA
             </span>
           ))}
+        </div>
+        <div className="mt-8">
+          <p className="text-xs uppercase tracking-mega text-gray-400 mb-3">Gun Dog Training Areas</p>
+          <div className="flex flex-wrap gap-x-5 gap-y-2 justify-center">
+            <Link href="/gun-dog-training-louisiana" className="text-accent-light hover:text-white text-xs font-bold uppercase tracking-mega">Gun Dog Training in Louisiana →</Link>
+            <Link href="/gun-dog-training-thibodaux-la" className="text-accent-light hover:text-white text-xs font-bold uppercase tracking-mega">Thibodaux →</Link>
+            <Link href="/duck-dog-training-houma-la" className="text-accent-light hover:text-white text-xs font-bold uppercase tracking-mega">Houma →</Link>
+          </div>
         </div>
       </div>
     </section>

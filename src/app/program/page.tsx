@@ -5,13 +5,13 @@ import { SITE, STAGES } from '@/lib/site'
 import { PhotoStrip, CtaBand, RetrieverMark } from '@/components/Sections'
 
 export const metadata: Metadata = {
-  title: 'The Program – Retriever Board-and-Train in Thibodaux, LA',
+  title: 'Gun Dog Training Program in Thibodaux, LA',
   description:
-    'TIMCO Kennels board-and-train: basic obedience, basic retriever, and advanced retriever — force fetch, marks, blind retrieves, hand signals, and duck-blind etiquette. 3 to 9 month programs in Thibodaux, LA. Insured.',
+    'Gun dog and retriever board-and-train in Thibodaux, LA — basic obedience through advanced: force fetch, marks, blind retrieves, and duck-blind work. 3 to 9 months.',
   alternates: { canonical: `${SITE.baseUrl}/program` },
   openGraph: {
-    title: 'The Program – Retriever Board-and-Train | TIMCO Kennels',
-    description: 'Basic obedience through advanced retriever. 3 to 9 month board-and-train in Thibodaux, LA.',
+    title: 'Gun Dog & Retriever Training Program in Thibodaux, LA | TIMCO Kennels',
+    description: 'Basic obedience through advanced retriever — a 3 to 9 month gun dog board-and-train in Thibodaux, LA.',
     url: `${SITE.baseUrl}/program`,
   },
 }
@@ -67,7 +67,8 @@ export default function ProgramPage() {
         <div className="relative container-wide py-24 md:py-32">
           <p className="section-label text-accent-light">Board-and-Train</p>
           <h1 className="heading-hero text-white mt-4 max-w-4xl text-balance">
-            The <span className="text-accent-light">program</span>.
+            Gun dog &amp; retriever<br />
+            <span className="text-accent-light">training</span> in {SITE.address.city}.
           </h1>
           <p className="lede text-gray-200 mt-6 max-w-2xl">
             One continuous board-and-train that takes a willing dog from sit-and-stay
@@ -178,10 +179,10 @@ export default function ProgramPage() {
         heading="Where the work happens."
         photos={[
           { src: '/images/retriever-sunset-1.jpg', alt: 'Labradors out in an open field at sunset in the Bayou Region' },
+          { src: '/images/kennel-ducks.jpg', alt: 'A strap of ducks — the payoff of a finished retriever from TIMCO Kennels' },
           { src: '/images/kennel-hero.jpg', alt: 'Labradors in a fenced yard with a utility vehicle at TIMCO Kennels' },
-          { src: '/images/kennel-pack-action.jpg', alt: 'Several dogs working out in a field by the fence line' },
           { src: '/images/kennel-three-labs.jpg', alt: 'Three Labradors sitting together on a bench at the kennel' },
-          { src: '/images/kennel-lab-chair-2.jpg', alt: 'A black Lab on a raised platform at TIMCO Kennels' },
+          { src: '/images/kennel-lab-portrait.jpg', alt: 'A close portrait of a fox-red Labrador at TIMCO Kennels' },
           { src: '/images/retriever-puppy-kennel.jpg', alt: 'A young retriever in the grass at the kennel' },
         ]}
       />

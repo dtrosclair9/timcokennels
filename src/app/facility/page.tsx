@@ -5,9 +5,9 @@ import { SITE } from '@/lib/site'
 import { PhotoStrip, CtaBand } from '@/components/Sections'
 
 export const metadata: Metadata = {
-  title: 'The Facility – 10-Run Retriever Kennel in Thibodaux, LA',
+  title: '10-Run Retriever Kennel & Facility in Thibodaux, LA',
   description:
-    'TIMCO Kennels is a 10-run board-and-train facility at 619 Hwy 308 in Thibodaux, LA. Daily field and water work, someone on site every day, drop-off and pick-up by appointment.',
+    'TIMCO Kennels is a 10-run gun-dog board-and-train facility at 619 Hwy 308 in Thibodaux, LA — daily field and water work, someone on site every day, by appointment.',
   alternates: { canonical: `${SITE.baseUrl}/facility` },
   openGraph: {
     title: 'The Facility – TIMCO Kennels, Thibodaux, LA',
@@ -16,13 +16,33 @@ export const metadata: Metadata = {
   },
 }
 
+const schema = {
+  '@context': 'https://schema.org',
+  '@type': ['LocalBusiness', 'AnimalTrainingBusiness'],
+  name: SITE.legalName,
+  description: `${SITE.runs}-run gun-dog board-and-train facility in ${SITE.address.city}, ${SITE.address.region} — daily field and water work, someone on site every day.`,
+  url: `${SITE.baseUrl}/facility`,
+  telephone: SITE.phoneRaw,
+  address: {
+    '@type': 'PostalAddress',
+    streetAddress: SITE.address.street,
+    addressLocality: SITE.address.city,
+    addressRegion: SITE.address.region,
+    postalCode: SITE.address.postal,
+    addressCountry: SITE.address.country,
+  },
+  geo: { '@type': 'GeoCoordinates', latitude: SITE.geo.lat, longitude: SITE.geo.lng },
+}
+
 export default function FacilityPage() {
   return (
     <>
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }} />
+
       {/* Hero */}
       <section className="relative bg-primary text-white overflow-hidden">
         <div className="absolute inset-0">
-          <Image src="/images/kennel-hero.jpg" alt="Labradors in a fenced yard with a utility vehicle at the TIMCO Kennels property in Thibodaux, Louisiana" fill priority className="object-cover opacity-40" sizes="100vw" />
+          <Image src="/images/kennel-runs.jpg" alt="Chain-link kennel runs at the TIMCO Kennels gun-dog facility in Thibodaux, Louisiana" fill priority className="object-cover opacity-40" sizes="100vw" />
           <div className="absolute inset-0 bg-gradient-to-r from-primary via-primary/85 to-primary/40" />
         </div>
         <div className="relative container-wide py-24 md:py-32">
@@ -47,7 +67,7 @@ export default function FacilityPage() {
         <div className="container-wide">
           <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
             <div className="lg:col-span-6 relative aspect-[4/3] overflow-hidden">
-              <Image src="/images/kennel-three-labs-picnic.jpg" alt="Labradors gathered on the grounds at the TIMCO Kennels facility in Thibodaux" fill className="object-cover" sizes="(max-width:1024px) 100vw, 50vw" />
+              <Image src="/images/kennel-hero.jpg" alt="Labradors in a fenced yard with a utility vehicle at the TIMCO Kennels facility in Thibodaux" fill className="object-cover" sizes="(max-width:1024px) 100vw, 50vw" />
             </div>
             <div className="lg:col-span-6">
               <p className="section-label">On the Ground</p>
@@ -103,10 +123,10 @@ export default function FacilityPage() {
         label="The Facility"
         heading="Where your dog lives and learns."
         photos={[
+          { src: '/images/kennel-four-labs.jpg', alt: 'Four Labradors lined up on the deck at the TIMCO Kennels facility' },
           { src: '/images/kennel-black-lab-alert.jpg', alt: 'A black Lab sitting alert on the grass at TIMCO Kennels' },
           { src: '/images/kennel-lab-chair-1.jpg', alt: 'A yellow Lab on a bench by a split-rail fence at the kennel' },
           { src: '/images/kennel-lab-chair-2.jpg', alt: 'A black Lab on a raised platform at the kennel' },
-          { src: '/images/kennel-white-lab-bench.jpg', alt: 'A yellow Lab on a picnic table by the kennel shed' },
           { src: '/images/kennel-three-labs.jpg', alt: 'Three Labradors sitting together on a bench at TIMCO Kennels' },
           { src: '/images/kennel-yellow-lab-hallway.jpg', alt: 'A yellow Lab on a bench by the kennel building' },
         ]}

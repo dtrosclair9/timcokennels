@@ -5,9 +5,9 @@ import { SITE, STAGES } from '@/lib/site'
 import { StatBar, PhotoStrip, CtaBand, AreaBand, RetrieverMark } from '@/components/Sections'
 
 export const metadata: Metadata = {
-  title: `${SITE.name} | Retriever Board-and-Train in Thibodaux, LA`,
+  title: `Gun Dog & Retriever Training in Thibodaux, LA`,
   description:
-    'TIMCO Kennels turns Labs and retrievers into finished gun dogs — basic obedience through advanced retriever work, duck-blind etiquette and hand signals. Board-and-train in Thibodaux, LA. 10 runs. Call 985.665.7298.',
+    'TIMCO Kennels turns Labs and retrievers into finished gun dogs — obedience through advanced retriever work, duck-blind etiquette and hand signals. Thibodaux, LA.',
   alternates: { canonical: SITE.baseUrl },
   openGraph: {
     title: `${SITE.name} | Retriever Board-and-Train in Thibodaux, LA`,
@@ -173,11 +173,11 @@ export default function HomePage() {
         heading="What a finished retriever looks like."
         photos={[
           { src: '/images/retriever-hero-boat.jpg', alt: 'Two retrievers riding in a boat through a Louisiana bayou' },
+          { src: '/images/kennel-lab-truck.jpg', alt: 'A Labrador riding shotgun in the truck at TIMCO Kennels' },
           { src: '/images/kennel-black-lab-alert.jpg', alt: 'A black Lab sitting alert on the grass at TIMCO Kennels' },
-          { src: '/images/kennel-lab-chair-1.jpg', alt: 'A yellow Lab on a bench by a split-rail fence at the kennel' },
-          { src: '/images/kennel-yellow-lab-hallway.jpg', alt: 'A yellow Lab on a bench by the TIMCO Kennels building' },
+          { src: '/images/kennel-three-labs.jpg', alt: 'Three Labradors sitting together on a bench at TIMCO Kennels' },
           { src: '/images/retriever-puppy-sweet.jpg', alt: 'A young retriever in the clover looking at the camera' },
-          { src: '/images/kennel-three-labs-picnic.jpg', alt: 'Labradors gathered on the grounds at TIMCO Kennels' },
+          { src: '/images/kennel-pack-action.jpg', alt: 'A pack of Labradors out in the field at TIMCO Kennels' },
         ]}
       />
 
@@ -187,8 +187,8 @@ export default function HomePage() {
           <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
             <div className="lg:col-span-5 relative aspect-[4/5] overflow-hidden order-2 lg:order-1">
               <Image
-                src="/images/kennel-three-labs.jpg"
-                alt="Three Labradors — golden, yellow, and cream — sitting together on a bench at TIMCO Kennels"
+                src="/images/kennel-tim-ducks.jpg"
+                alt={`${SITE.owner}, owner of TIMCO Kennels, in waders with a strap of ducks`}
                 fill
                 className="object-cover"
                 sizes="(max-width:1024px) 100vw, 40vw"

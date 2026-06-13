@@ -17,18 +17,21 @@ export const metadata: Metadata = {
 
 const photos = [
   { src: '/images/retriever-hero-boat.jpg', alt: 'Two retrievers riding in a boat through a Louisiana bayou' },
+  { src: '/images/kennel-four-labs.jpg', alt: 'Four Labradors lined up on the deck at TIMCO Kennels' },
+  { src: '/images/kennel-tim-ducks.jpg', alt: 'The owner of TIMCO Kennels in waders with a strap of ducks' },
+  { src: '/images/kennel-runs.jpg', alt: 'Chain-link kennel runs at the TIMCO Kennels facility in Thibodaux' },
   { src: '/images/retriever-sunset-1.jpg', alt: 'Labradors in an open field at sunset in the Bayou Region' },
-  { src: '/images/kennel-three-labs.jpg', alt: 'Three Labradors — golden, yellow, and cream — sitting together on a bench' },
+  { src: '/images/kennel-lab-truck.jpg', alt: 'A Labrador riding shotgun in the truck at TIMCO Kennels' },
   { src: '/images/kennel-black-lab-alert.jpg', alt: 'A black Lab sitting alert on the grass at TIMCO Kennels' },
+  { src: '/images/kennel-ducks.jpg', alt: 'A strap of ducks — the payoff of a finished retriever' },
+  { src: '/images/kennel-three-labs.jpg', alt: 'Three Labradors sitting together on a bench at the kennel' },
+  { src: '/images/kennel-lab-portrait.jpg', alt: 'A close portrait of a fox-red Labrador at TIMCO Kennels' },
   { src: '/images/kennel-hero.jpg', alt: 'Labradors in a fenced yard with a utility vehicle at TIMCO Kennels' },
-  { src: '/images/kennel-lab-chair-1.jpg', alt: 'A yellow Lab on a bench by a split-rail fence at the kennel' },
   { src: '/images/retriever-puppy-sweet.jpg', alt: 'A young retriever looking up at the camera in the clover' },
-  { src: '/images/kennel-three-labs-picnic.jpg', alt: 'Labradors gathered on the grounds at the kennel' },
-  { src: '/images/kennel-white-lab-bench.jpg', alt: 'A yellow Lab on a picnic table by the kennel shed in Thibodaux' },
-  { src: '/images/kennel-lab-chair-2.jpg', alt: 'A black Lab on a raised platform in golden-hour light at the kennel' },
+  { src: '/images/kennel-lab-bench.jpg', alt: 'A fox-red Labrador sitting on a bench by a split-rail fence' },
   { src: '/images/kennel-pack-action.jpg', alt: 'Several dogs out in a field by the fence line at TIMCO Kennels' },
-  { src: '/images/kennel-yellow-lab-hallway.jpg', alt: 'A yellow Lab on a bench by the kennel building' },
   { src: '/images/retriever-puppy-kennel.jpg', alt: 'A young retriever in the grass at the kennel' },
+  { src: '/images/kennel-yellow-lab-hallway.jpg', alt: 'A yellow Lab on a bench by the kennel building' },
 ]
 
 const schema = {

@@ -35,6 +35,21 @@ export default function Footer() {
                   </Link>
                 </li>
               ))}
+              <li className="pt-2">
+                <Link href="/gun-dog-training-louisiana" className="text-sm hover:text-accent-light transition-colors">
+                  Gun Dog Training in Louisiana
+                </Link>
+              </li>
+              <li>
+                <Link href="/gun-dog-training-thibodaux-la" className="text-sm hover:text-accent-light transition-colors">
+                  Gun Dog Training in Thibodaux
+                </Link>
+              </li>
+              <li>
+                <Link href="/duck-dog-training-houma-la" className="text-sm hover:text-accent-light transition-colors">
+                  Duck Dog Training in Houma
+                </Link>
+              </li>
             </ul>
           </div>
 

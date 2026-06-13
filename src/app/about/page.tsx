@@ -5,8 +5,8 @@ import { SITE } from '@/lib/site'
 import { AreaBand } from '@/components/Sections'
 
 export const metadata: Metadata = {
-  title: `About TIMCO Kennels – Meet ${SITE.owner}`,
-  description: `${SITE.legalName} is a Labrador and retriever board-and-train owned by ${SITE.owner} out of Thibodaux, Louisiana. Consistent, hands-on training from basic obedience through advanced retriever work.`,
+  title: `About – Meet ${SITE.owner}`,
+  description: `TIMCO Kennels is a Labrador and retriever gun-dog board-and-train owned by ${SITE.owner} in Thibodaux, LA — basic obedience through advanced retriever work.`,
   alternates: { canonical: `${SITE.baseUrl}/about` },
   openGraph: {
     title: `About ${SITE.name} | Thibodaux, LA`,
