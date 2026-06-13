@@ -175,7 +175,7 @@ export function GunDogLanding(d: GunDogLandingData) {
       <CtaBand
         heading={d.ctaHeading}
         body="Send your dog's age, where they're at on obedience and retrieving, and your timeframe. We'll follow up about openings and which stage to start them in."
-        note={d.ctaNote ?? `Insured · ${SITE.runs} runs · ${SITE.address.street}, ${SITE.address.city}`}
+        note={d.ctaNote ?? `${SITE.runs} runs · ${SITE.address.street}, ${SITE.address.city}`}
       />
     </>
   )

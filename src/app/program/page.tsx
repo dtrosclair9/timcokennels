@@ -190,7 +190,7 @@ export default function ProgramPage() {
       <CtaBand
         heading="Ready to get them finished?"
         body="Send your dog's age, where they're at on obedience and retrieving, and what you want them doing by season. We'll follow up about current openings and which stage to start them in."
-        note={`Insured · ${SITE.runs} runs · Programs run ${SITE.programRange} · Pricing by program — ask`}
+        note={`${SITE.runs} runs · Programs run ${SITE.programRange} · Pricing by program — ask`}
       />
     </>
   )

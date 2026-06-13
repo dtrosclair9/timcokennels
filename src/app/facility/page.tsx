@@ -52,7 +52,7 @@ export default function FacilityPage() {
           </h1>
           <p className="lede text-gray-200 mt-6 max-w-2xl">
             Your dog boards and trains at our {SITE.address.street} headquarters — the same
-            property the crew works out of every day. Someone is on site, and your dog is
+            property TIMCO works out of every day. Someone is on site, and your dog is
             never on the back burner.
           </p>
           <div className="mt-9 flex flex-wrap gap-3">

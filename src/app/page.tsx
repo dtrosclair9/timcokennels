@@ -96,7 +96,7 @@ export default function HomePage() {
             { label: 'Programs', value: SITE.programRange },
             { label: 'Kennel Runs', value: String(SITE.runs) },
             { label: 'HQ', value: `${SITE.address.city}, ${SITE.address.region}` },
-            { label: 'Insured', value: 'Crew + Equipment' },
+            { label: 'Training', value: 'Field & Water' },
           ]}
         />
       </section>
@@ -156,7 +156,7 @@ export default function HomePage() {
               </h2>
               <p className="text-gray-700 mt-6 leading-relaxed">
                 Your dog boards and trains at our {SITE.address.street} headquarters — the
-                same property where the crew is on site every day. Daily field and water
+                same property where someone is on site every day. Daily field and water
                 work on rural ground nearby, not a back-yard hobby setup. Drop-offs and
                 pick-ups by appointment.
               </p>
@@ -224,7 +224,7 @@ export default function HomePage() {
       <CtaBand
         heading="Got a dog ready to work?"
         body="Send your dog's age, where they're at on obedience and retrieving, and what you want them doing by season. We'll follow up about current openings and program fit."
-        note={`Insured · ${SITE.runs} runs · Programs run ${SITE.programRange}`}
+        note={`${SITE.runs} runs · Programs run ${SITE.programRange}`}
       />
     </>
   )

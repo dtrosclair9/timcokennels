@@ -79,7 +79,7 @@ export default function GalleryPage() {
       <CtaBand
         heading="Want your dog in next season's photos?"
         body="Reach out about openings. Tell us where your dog is now and what you want them doing by opening day."
-        note={`Insured · ${SITE.runs} runs · ${SITE.address.city}, ${SITE.address.region}`}
+        note={`${SITE.runs} runs · ${SITE.address.city}, ${SITE.address.region}`}
       />
     </>
   )

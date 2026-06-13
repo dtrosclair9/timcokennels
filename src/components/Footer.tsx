@@ -20,7 +20,7 @@ export default function Footer() {
               Basic obedience through advanced retriever. Serving {SITE.serviceArea.parishes.join(', ')} parishes.
             </p>
             <p className="mt-4 text-xs uppercase tracking-mega text-gray-500">
-              Insured · {SITE.owner}, {SITE.ownerTitle}
+              {SITE.owner}, {SITE.ownerTitle}
             </p>
           </div>
 

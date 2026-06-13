@@ -65,7 +65,7 @@ const data: GunDogLandingData = {
     },
   ],
   ctaHeading: 'Anywhere in Louisiana — let’s talk.',
-  ctaNote: `Insured · ${SITE.runs} runs · Board-and-train in Thibodaux, LA`,
+  ctaNote: `${SITE.runs} runs · Board-and-train in Thibodaux, LA`,
 }
 
 export const metadata: Metadata = buildGunDogMetadata(data)
